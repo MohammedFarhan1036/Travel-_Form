@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(218, 56, 56);
+    background-image: url("hmsit.jpg");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size:cover;
+
+    /* position: absolute;
+    z-index: 1; */
+}
+.form{
+    margin: auto;
+    /* border: 2px solid black; */
+    /* height:50vh; */
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%; 
+     transform: translate(-50%,-50%);
+}
+.form input,.names{
+    width: 60%;
+    /* opacity: 0.5; */
+    margin-top: 15px;
+    font-weight: 100;
+
+}
+.names{
+    display: flex;
+    flex-direction: row;
+}
+.form input{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 0.6rem;
+    font-weight: bold;
+    outline: none;
+    font-family: 'Roboto Slab', serif;
+
+
+}
+::placeholder {
+    color: rgb(0, 0, 0);
+    opacity: 0.8; /* Firefox */
+  }
+  .textarea{
+      height:100px;
+  }
+.h1{
+    font-family: 'Roboto Slab', serif;
+    font-size: 100px;
+    text-align: center;
+}
+    
+    
