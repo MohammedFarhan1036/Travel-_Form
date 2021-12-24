@@ -28,7 +28,7 @@ body{
     left: 50%; 
      transform: translate(-50%,-50%);
 }
-.form input,.names{
+.form input{
     width: 60%;
     /* opacity: 0.5; */
     margin-top: 15px;
@@ -38,6 +38,8 @@ body{
 .names{
     display: flex;
     flex-direction: row;
+    /* border:2px solid red; */
+    width: 60%;
 }
 .form input{
     background-color: rgba(0, 0, 0, 0.5);
@@ -61,6 +63,22 @@ body{
     font-family: 'Roboto Slab', serif;
     font-size: 100px;
     text-align: center;
+}
+@media (max-width:600px){
+    .form .names{
+        flex-direction: column;
+        /* width:60%; */
+        
+    }
+    .names input{
+        width: 100%;
+        
+    }
+    .h1{
+        font-size:50px;
+
+    }
+
 }
     
     
